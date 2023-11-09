@@ -1,0 +1,35 @@
+{
+  "statusCode": 200,
+  "data": {
+    "users": [
+      {
+        "name": "Super Admin",
+        "email": "admin@admin.com",
+        "contact_number": "",
+        "username": "superadmin",
+        "branch": "Head Office",
+        "role": "Super Admin",
+        "active": "Active"
+      }
+    ],
+    "changeRequests": [
+      {
+        "type": "USER",
+        "pendingAction": "CREATE",
+        "changeRequestId": 1,
+        "requestedBy": "superadmin",
+        "requestedTime": "2022-08-17T22:58:31.947664",
+        "originalRecord": null,
+        "newRecord": {
+          "name": "Test User 1",
+          "email": "user1@test.com",
+          "contact_number": "0711567678",
+          "username": "testuser1",
+          "branch": "Head Office",
+          "role": "Super Admin",
+          "active": "Active"
+        }
+      }
+    ]
+  }
+}
